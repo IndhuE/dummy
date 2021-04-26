@@ -1,0 +1,963 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1271400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "HookerClass.beforeHookes()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "",
+        "description": "verify adacticin booking page details with all valid credentials ",
+        "id": "validate-adacticin-booking-page-funcionality;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 73200,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user is on the Adacticin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_Adacticin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user should enter \"IndhuElango\" and \"Nila@123\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IndhuElango\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Nila@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user should select hotel details\"London\",\"Hotel Creek\",\"Super Deluxe\",\"5 - Five\",\"\u003ccheckInDate\u003e\",\"\u003ccheckoutDate\u003e\",\"3 - Three\",\"2 - Two\"and click Search",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user should verify \"select hotel\" is present",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user should select hotel and click continue button in select hotel page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user should verify \"Book A Hotel\" is present",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user should enter booking details\"\u003cFirstName\u003e\",\"\u003cLastName\u003e\",\"\u003cAddress\u003e\"and click BookNow",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "creditCardNo",
+                  "cardType",
+                  "expiryCardMonth",
+                  "expiryCardYear",
+                  "creditCardCvvNo"
+                ]
+              },
+              {
+                "cells": [
+                  "9780654321123456",
+                  "VISA",
+                  "August",
+                  "2022",
+                  "706"
+                ]
+              },
+              {
+                "cells": [
+                  "9780676521123456",
+                  "MasterCard",
+                  "August",
+                  "2023",
+                  "702"
+                ]
+              },
+              {
+                "cells": [
+                  "2340654321123456",
+                  "American Express",
+                  "August",
+                  "2024",
+                  "703"
+                ]
+              },
+              {
+                "cells": [
+                  "1230654321123456",
+                  "Other",
+                  "August",
+                  "2025",
+                  "308"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user should see in the next page \"Booking confirmation\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 732400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "HookerClass.beforeHookes()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "",
+        "description": "verify adactin booking page without entering anything and click book now ",
+        "id": "validate-adacticin-booking-page-funcionality;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14101,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user is on the Adacticin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_Adacticin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10400,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user should enter \"IndhuElango\" and \"Nila@123\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IndhuElango\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Nila@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "user should select hotel details\"London\",\"Hotel Creek\",\"Super Deluxe\",\"5 - Five\",\"\u003ccheckInDate\u003e\",\"\u003ccheckoutDate\u003e\",\"3 - Three\",\"2 - Two\"and click Search",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "user should verify \"select hotel\" is present",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "user should select hotel and click continue button in select hotel page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "user should verify \"Book A Hotel\" is present",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "user should click BookNow",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "user could able to see \"Please Enter your First Name,  Please Enter you Last Name,  Please Enter your Address,Please Enter your 16 Digit Credit Card Number,Please Select your Credit Card Type,Please Select your Credit CardExpiry Month,Please Enter your Credit Card CVV Number\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate adacticin booking page funcionality",
+    "description": "",
+    "id": "validate-adacticin-booking-page-funcionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Booking.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 33001,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "HookerClass.beforeHookes()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "",
+        "description": "verify adacticin booking page details with all valid credentials ",
+        "id": "validate-adacticin-booking-page-funcionality;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12100,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user is on the Adacticin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_Adacticin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9699,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user should enter \"IndhuElango\" and \"Nila@123\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IndhuElango\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Nila@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user should select hotel details\"London\",\"Hotel Creek\",\"Super Deluxe\",\"5 - Five\",\"\u003ccheckInDate\u003e\",\"\u003ccheckoutDate\u003e\",\"3 - Three\",\"2 - Two\"and click Search",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user should verify \"select hotel\" is present",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user should select hotel and click continue button in select hotel page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user should verify \"Book A Hotel\" is present",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user should enter booking details\"Indhu\",\"Elango\",\"Omr\",\"9780654321123456\",\"VISA\",\"August\",\"2022\",\"708\"and click BookNow",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user should see in the next page \"Booking confirmation\" and generated order id and click Booked itinerary to cancel the booking",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "particular order id is generated,select id and click Cancel selected",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user should see the \"The booking has been cancelled\" message.",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "HookerClass.beforeHookes()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "",
+        "description": "verify adacticin booking page details with all valid credentials ",
+        "id": "validate-adacticin-booking-page-funcionality;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13499,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user is on the Adacticin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_Adacticin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11300,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user should enter \"IndhuElango\" and \"Nila@123\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IndhuElango\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Nila@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "select hotel page should be displayed and clicked Booked Itinerary for cancel the booking",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "select the particular \"7JB4522BS1\" you want to cancel and click Cancel id button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "user should be able to see \"The booking has been cancelled.\" in Booked itenerary",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate adacticin booking page funcionality",
+    "description": "",
+    "id": "validate-adacticin-booking-page-funcionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/CancelBooking.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "HookerClass.beforeHookes()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "verify adacticin login details with valid credentials",
+        "description": "",
+        "id": "validate-adacticin-hotel-funcionality;verify-adacticin-login-details-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14099,
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "user is on the Adacticin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_Adacticin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27100,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user should enter \"IndhuElango\" and \"Nila@123\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IndhuElango\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Nila@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9801,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user should select hotel details\"London\",\"Hotel Creek\",\"Super Deluxe\",\"5 - Five\",\"03/04/2021\",\"04/04/2021\",\"3 - Three\" and \"2 - Two\"and click btnContinue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Super Deluxe\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"5 - Five\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"03/04/2021\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"04/04/2021\"",
+                  "offset": 94
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 107
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 123
+                }
+              ],
+              "location": "StepDefinition.user_should_select_hotel_details_and_and_click_btnContinue(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10199,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user should enter user and payment details",
+            "match": {
+              "location": "StepDefinition.user_should_enter_user_and_payment_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "txtFirstName",
+                  "txtLastName",
+                  "txtAddress",
+                  "creditCardNo",
+                  "creditCardType",
+                  "expiryCardMonth",
+                  "expiryCardYear",
+                  "getcVV"
+                ]
+              },
+              {
+                "cells": [
+                  "Indhu",
+                  "Elango",
+                  "Omr",
+                  "9780654321123456",
+                  "VISA",
+                  "August",
+                  "2022",
+                  "708"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click book now and ordernumber",
+            "match": {
+              "location": "StepDefinition.click_book_now_and_ordernumber()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "validate adacticin hotel funcionality",
+    "description": "",
+    "id": "validate-adacticin-hotel-funcionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "HookerClass.beforeHookes()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "verify adacticin Search Hotel with all valid credentials",
+        "description": "",
+        "id": "validate-adacticin-hotel-functionalities;verify-adacticin-search-hotel-with-all-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000,
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "user is on the Adacticin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_Adacticin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28200,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user should enter \"IndhuElango\" and \"Nila@123\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IndhuElango\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Nila@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user should select hotel details\"London\",\"Hotel Creek\",\"Super Deluxe\",\"5 - Five\",\"\u003ccheckInDate\u003e\",\"\u003ccheckoutDate\u003e\",\"3 - Three\" and \"2 - Two\"and click search",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user should verify \"select hotel\" is present",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18799,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "HookerClass.beforeHookes()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify Search Hotel page with only mandatory fields",
+        "description": "",
+        "id": "validate-adacticin-hotel-functionalities;verify-search-hotel-page-with-only-mandatory-fields;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13600,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user is on the Adacticin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_Adacticin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9699,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user should enter \"IndhuElango\" and \"Nila@123\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IndhuElango\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Nila@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user should select hotel details\"London\",\"5 - Five\",\"\u003ccheckInDate\u003e\",\"\u003ccheckoutDate\u003e\",\"3 - Three\"and click search",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "user should verify multiple options \"select hotel\" is present",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "HookerClass.beforeHookes()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "verify search hotel page with entering invalid dates",
+        "description": "",
+        "id": "validate-adacticin-hotel-functionalities;verify-search-hotel-page-with-entering-invalid-dates;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15200,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user is on the Adacticin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_Adacticin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10699,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user should enter \"IndhuElango\" and \"Nila@123\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IndhuElango\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Nila@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "user should select hotel details\"London\",\"Hotel Creek\",\"Super Deluxe\",\"5 - Five\",\"\u003ccheckInDate\u003e\",\"\u003ccheckoutDate\u003e\",\"3 - Three\" and \"2 - Two\"and click search",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "user should able to see \"Check-In Date shall be before than Check-Out Date,Check-Out Date shall be after than Check-In Date\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "HookerClass.beforeHookes()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "",
+        "description": "verify search hotel page without entering anything with click search button ",
+        "id": "validate-adacticin-hotel-functionalities;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13399,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "user is on the Adacticin page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_Adacticin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10400,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user should enter \"IndhuElango\" and \"Nila@123\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IndhuElango\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Nila@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "user should click search in Search Hotel page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "user should able to see \"Please Select a Location\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate adacticin hotel functionalities",
+    "description": "",
+    "id": "validate-adacticin-hotel-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/SearchHotel.feature",
+    "tags": []
+  }
+]
